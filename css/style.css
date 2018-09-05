@@ -3,6 +3,13 @@ Colors:
 Background: #4E4F48
 Highlight:  #C2CF52
 */
+.transition, nav ul li a {
+  -moz-transition: background-color 0.3s ease-in;
+  -webkit-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
 /* CSS Reset */
 html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, em, img, small, strong, sub, sup, var,
@@ -231,10 +238,6 @@ nav ul li a {
   -o-border-radius: 7px;
   border-radius: 7px;
   behavior: url(PIE.htc);
-  -moz-transition: background-color 0.3s ease-in;
-  -webkit-transition: background-color 0.3s ease-in;
-  -o-transition: background-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in;
 }
 nav ul li a:hover {
   background-color: lightblue;
