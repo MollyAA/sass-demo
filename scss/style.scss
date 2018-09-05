@@ -6,14 +6,16 @@ Highlight:  #C2CF52
 
 //Sass Varibles 
 $basefont: "Comic Sans MS", san-serif;
-$background: lightpink;
-$accent: #C2CF00;
-$base: lightblue;
+$background:saturate(#D2ACA2, 10%);
+$accent:darken(#C2CF00, 20%);
+$base:complement(lightblue);
 
 .transition { -moz-transition: background-color .3s ease-in;
   -webkit-transition: background-color .3s ease-in;
   -o-transition: background-color .3s ease-in;
   transition: background-color .3s ease-in;}
+//mixin
+
 /* CSS Reset */
 html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, em, img, small, strong, sub, sup, var,
